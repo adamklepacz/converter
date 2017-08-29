@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Converter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	
+	<style>
+		body {
+			margin-top: 70px;
+			background: #333;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mr-auto ml-auto">
+				<h1 class="display-3 text-center mb-4">Weigth Converter</h1>
+				<from>
+					<div class="form-group">
+						<input id="kgInput" type="number" class="form-control form-control-lg" placeholder="Enter kilograms...">
+					</div>
+				</from>
+				<div id="output">
+					<div class="card bg-primary mb-2">
+						<div class="card-body">
+							<h4>Grams</h4>
+							<div id="gramsOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-success mb-2">
+						<div class="card-body">
+							<h4>Pounds</h4>
+							<div id="poundsOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-danger mb-2">
+						<div class="card-body">
+							<h4>Ounces</h4>
+							<div id="ouncesOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+</html>
